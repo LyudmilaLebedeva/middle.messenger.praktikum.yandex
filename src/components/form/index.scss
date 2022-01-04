@@ -1,0 +1,55 @@
+.form {
+    // border: 1px solid black;
+    // border-radius: 20px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 5px 20px;
+    background: white;
+    &__title {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+        font-size: 25px;
+        text-align: center;
+        padding: 15px;
+    }
+    &__input {
+        display: block;
+        width: 100%;
+        font-size: 20px;
+        padding: 0;
+        border: none;
+        border-bottom: 1px solid black;
+        &:focus {
+            outline: none;
+        }
+    }
+    &__label {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+    &__error {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        line-height: 1;
+        min-height: 16px;
+        color: red;
+        padding: 3px 0;
+    }
+    &__submit {
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+        margin: 5px auto;
+        font-size: 25px;
+        text-align: center;
+        padding: 2px 5px;
+        border-radius: 7px;
+    }
+    &__link {
+        background: none;
+        border: none;
+        color: blue;
+        display: block;
+        margin: 15px auto;
+        cursor: pointer;
+    }
+}
