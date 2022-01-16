@@ -5,24 +5,19 @@ import '../../components/form'
 import '../../components/container'
 
 const formProps = {
-    title: 'Enter',
+    title: 'Change password',
     inputs: [
         {
-            label: "Current password"
+            label: "Old password",
+            name: "oldPpassword",
         },
         {
-            label: "New passwod"
+            label: "New passwod",
+            name: "newPpassword",
         },
-        ,
-        {
-            label: "Repeat"
-        }
     ],
-    link: {
-        text: "Sigin in"
-    },
     submit: {
-        value: "Submit"
+        value: "Change"
     }
 }
 

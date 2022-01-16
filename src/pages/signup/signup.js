@@ -5,35 +5,38 @@ import '../../components/form'
 import '../../components/container'
 
 const formProps = {
-    title: 'Registation',
+    title: 'Create account',
     inputs: [
         {
-            label: "E-mail"
+            label: "First name",
+            name: "first_name",
         },
         {
-            label: "Login"
+            label: "Second name",
+            name: "second_name",
         },
         {
-            label: "Name"
+            label: "Login",
+            name: "login",
         },
         {
-            label: "Last name"
+            label: "E-mail",
+            name: "email",
         },
         {
-            label: "Phone"
+            label: "Password",
+            name: "password",
         },
         {
-            label: "Password"
+            label: "Phone",
+            name: "phone",
         },
-        {
-            label: "Repeat password"
-        }
     ],
     link: {
-        text: "Sigin in"
+        text: "Already registered?"
     },
     submit: {
-        value: "Submit"
+        value: "Registration"
     }
 }
 

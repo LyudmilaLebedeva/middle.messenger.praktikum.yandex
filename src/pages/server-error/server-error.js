@@ -8,7 +8,7 @@ const serverErrorProps = {
     code: "500",
     message: "Server Error",
     link: {
-        text: "To main"
+        text: "Go to main page"
     }
 }
 

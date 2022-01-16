@@ -13,7 +13,9 @@ const templateString = `
         {{>input this}}
     {{/each}}
     {{>submit submit}}
+    <p class="form__error form__error_centred">{{error}}</p>
     {{>link link}}
+    
 </form>
 `
 

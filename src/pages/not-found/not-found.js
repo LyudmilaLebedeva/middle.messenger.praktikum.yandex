@@ -5,10 +5,10 @@ import '../../components/server-error'
 import '../../components/container'
 
 const serverErrorProps = {
-    code: "404",
-    message: "Not Found",
+    code: "Error 404",
+    message: "This page is not found",
     link: {
-        text: "To main"
+        text: "Go to main page"
     }
 }
 

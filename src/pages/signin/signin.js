@@ -5,21 +5,25 @@ import '../../components/form'
 import '../../components/container'
 
 const formProps = {
-    title: 'Enter',
+    title: 'Sky chat',
     inputs: [
         {
-            label: "Login"
+            label: "Login",
+            name: "login",
+            error: "Uncorrect"
         },
         {
-            label: "Password"
+            label: "Password",
+            name: "password",
         }
     ],
     link: {
-        text: "Sigin in"
+        text: "Create account"
     },
     submit: {
-        value: "Submit"
-    }
+        value: 'Enter',
+    },
+    error: "Server error"
 }
 
 

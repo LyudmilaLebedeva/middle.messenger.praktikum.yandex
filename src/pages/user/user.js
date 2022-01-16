@@ -5,26 +5,40 @@ import '../../components/form'
 import '../../components/container'
 import '../../modules/user-info'
 
-const formProps = {
+import avatar from './no-photo.jpg'
 
+const formProps = {
+    title: "Edit profile",
     inputs: [
         {
-            label: "E-mail"
+            label: "First name",
+            name: "first_name",
+            value: "Masha",
         },
         {
-            label: "Login"
+            label: "Second name",
+            name: "second_name",
+            value: "Ivanova",
         },
         {
-            label: "Name"
+            label: "Display name",
+            name: "display_name",
+            value: "Mary",
         },
         {
-            label: "Nick"
+            label: "Login",
+            name: "login",
+            value: "noname777",
         },
         {
-            label: "Last name"
+            label: "E-mail",
+            name: "email",
+            value: "masha@pochta.ru",
         },
         {
-            label: "Phone"
+            label: "Phone",
+            name: "phone",
+            value: "+7(999)777-77-77",
         },
     ],
     link: {
@@ -39,6 +53,6 @@ document.body.insertAdjacentHTML(
     'beforeend',
     Handlebars.compile('{{>container}}')( {
         content: 'userInfo', 
-        contentProps: {formProps, avatarProps: {}}
+        contentProps: {formProps, avatarProps: { src: avatar }}
     } ) 
 );

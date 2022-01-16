@@ -2,7 +2,7 @@ import Handlebars from 'handlebars'
 
 const templateString = `
 
-<input class="form__submit" type="submit" value={{value}}>
+<input class="form__submit"  value={{value}} type="submit">
 
 `
 
