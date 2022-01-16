@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "rm -r ./dist && parcel ./src/pages/index.html",
-    "build": "parcel build ./src/pages/index.html",
+    "build": "parcel build ./src/pages/index.html --no-minify",
     "start": "node app.js"
   },
   "repository": {
