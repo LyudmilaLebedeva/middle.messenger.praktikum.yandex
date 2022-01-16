@@ -27,7 +27,8 @@
     "scss": "^0.2.4"
   },
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "parcel-bundler": "^1.12.5"
   },
   "engines": {
     "node": ">=12.0"
