@@ -1,0 +1,21 @@
+.server-error {
+    font-family: Arial, Helvetica, sans-serif;
+        color: steelblue;
+        text-align: center;
+    &__code {
+        font-size: 50px;
+    }
+    &__message {
+        font-size: 40px;
+    }
+    &__link {
+        font-size: 24px;
+        text-decoration: underline;
+        background: none;
+        border: none;
+        color: blue;
+        display: block;
+        margin: 10px auto 0;
+        cursor: pointer;
+    }
+}
